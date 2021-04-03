@@ -1,0 +1,38 @@
+* {
+    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(to bottom, #00ffff, #00ff99);
+}
+nav {
+  background-color: black;
+}
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content:center;
+
+  padding: 20px;
+}
+li > a {
+  margin-right: 30px;
+  padding: 3px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: blanchedalmond;
+}
+#para {
+text-align: center;
+  height: 400px;
+  width: 100%;
+}
+button{
+font-family:sans-serif, serif;
+    font-size: large;
+    margin-top: 70px;
+    height: 60px;
+    width: 200px;
+}
